@@ -1,5 +1,4 @@
 # 📐 Taylor Series:sinh(x) Evaluation using Recursion in Python
-
 ## 🎯 AIM:
 To write a Python program to evaluate the value of **sinh(x)** for **n terms** using recursion.
 
@@ -22,9 +21,23 @@ To write a Python program to evaluate the value of **sinh(x)** for **n terms** u
 ---
 
 ## 💻 PROGRAM:
-
-ADD CODE HERE
-
+```
+def fact(n):
+    if n<=1:
+       return 1
+   else:
+       return n*fact(n-1)   
+def angle(x,n):
+   if n==0:
+      return x
+   else:
+      return (((pow(x,(2*n+1)))/(fact(2*n+1))) + sinh(x,n-1))
+x=int(input())
+n=int(input())
+print(sinh(x,n))
+```
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/9fde9a60-7ac1-4f20-825a-80ad8f4bb1f2)
 
 ## RESULT
+Thus, the program has been execueted successfully.
