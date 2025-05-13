@@ -1,6 +1,5 @@
 # 🔁 Recursion:Palindrome Checker Using Recursion in Python
-NAME : PRIYADHARSHINI .S
-REG NO : 212224020045
+
 ## 🎯 AIM:
 To write a Python program to check whether a given string is a **palindrome** using **recursion**.
 
