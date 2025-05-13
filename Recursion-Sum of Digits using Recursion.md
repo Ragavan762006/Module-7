@@ -2,8 +2,6 @@
 
 ## 🎯 AIM:
 To write a Python program to calculate the **sum of all digits** in a number using **recursion**.
-NAME : PRIYADHARSHINI .S
-REG NO : 212224020045
 ## 🧠 ALGORITHM:
 
 1. **Start**
