@@ -1,6 +1,5 @@
 # 🔁 Types of Recursion: Head Recursion in Python
-NAME : PRIYADHARSHINI .S
-REG NO : 212224020045
+
 ## 🎯 AIM:
 To write a Python program to demonstrate **Head Recursion** by finding and printing the sequence based on the sum of all digits (even or odd adjusted input).
 
