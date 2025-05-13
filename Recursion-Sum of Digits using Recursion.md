@@ -2,7 +2,8 @@
 
 ## 🎯 AIM:
 To write a Python program to calculate the **sum of all digits** in a number using **recursion**.
-
+NAME : PRIYADHARSHINI .S
+REG NO : 212224020045
 ## 🧠 ALGORITHM:
 
 1. **Start**
@@ -17,7 +18,19 @@ To write a Python program to calculate the **sum of all digits** in a number usi
 ## 💻 PROGRAM:
 
 ADD CODE HERE
-
+```
+  def sum_digits(num):
+      if num < 0 or int(num) != num:
+          return 0
+      elif num == 0:
+          return 0
+      else:
+          return (num % 10) + sum_digits(num//10)
+  num= int(input())
+  print(sum_digits(num))
+```
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/3caee1a3-8400-4c5c-9907-f19ec1dc2741)
 
 ## RESULT
+Thus, the program has been executed successfully.
